@@ -22,10 +22,10 @@ var icon = document.getElementById("icon")
 icon.onclick = function(){
     if(song.paused){
         song.play();
-        icon.src = "/Users/adarshagrahari/Public/HTML/IAESTE/Product/image/pause.png";
+        icon.src = "pause.png";
     }else{
         song.pause();
-        icon.src = "/Users/adarshagrahari/Public/HTML/IAESTE/Product/image/play.png";
+        icon.src = "play.png";
     }
     // song.play();
 }
