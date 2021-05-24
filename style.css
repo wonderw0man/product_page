@@ -67,7 +67,7 @@ button{
 .header{
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0,0.5)),
-    url(/Users/adarshagrahari/Public/HTML/IAESTE/Product/image/background.png) center/cover no-repeat;
+    url(background.png) center/cover no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
@@ -189,7 +189,7 @@ button{
 /* FEATURES */
 .features{
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/Users/adarshagrahari/Public/HTML/IAESTE/Product/image/feature.jpeg) 
+    url(feature.jpeg) 
     center/cover no-repeat fixed;
 }
 .feature-item{
@@ -383,7 +383,7 @@ button{
 .newsletter{
     height: 60vh;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0,0.7)),
-    url(/Users/adarshagrahari/Public/HTML/IAESTE/Product/image/news.jpeg) center/cover no-repeat fixed;
+    url(news.jpeg) center/cover no-repeat fixed;
     padding: 5rem 0;
     text-align: center;
 }
