@@ -17,7 +17,7 @@ toggleBtn.addEventListener("click", function(){
 // music 
 
 var song = document.getElementById("song")
-var icon = document.getElementById("icon")
+var icon = document.getElementById("pause")
 
 icon.onclick = function(){
     if(song.paused){
