@@ -166,19 +166,26 @@ button{
 /* MUSIC */
 .music{
     float: right;
+    height: fit-content;
     position: relative;
     padding-bottom: 20%;
-    margin-right: 4%;
     display: flex;
+    flex-flow: row;
+    width: 180px;
     align-items: center;
 }
 .music p{
     color: #e0e0e0;
     font-size: 1rem;
     font-weight: 500;
+    
+}
+.music img{
+    width: 22%; 
+    margin-left: 1.5%;
+
 }
 #icon{
-    width: 4%;
     cursor: pointer;
 }
 .music img:hover{
@@ -323,6 +330,8 @@ button{
 .reviews-wrapper{
     position: relative;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-flow: row;
     height: 400px;
 }
@@ -343,6 +352,9 @@ button{
 .review-item h3{
     font-size: 1.1rem;
     font-weight: 300;
+    justify-content: center;
+    display: flex;
+    align-items: center;
     letter-spacing: 4px;
 }
 .prev-btn, .next-btn{
