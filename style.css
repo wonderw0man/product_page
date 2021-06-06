@@ -222,7 +222,7 @@ button{
 }
 .product-title{
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 800;
     text-transform: uppercase;
 }
@@ -280,7 +280,7 @@ button{
     opacity: 0.8;
 }
 .add-btn{
-    border-radius: 1.3rem;
+    border-radius: 0;
     border: none;
     padding: 0.7rem 1.8rem;
     background: #62929E;
@@ -350,7 +350,7 @@ button{
     margin: 2rem 0;
 }
 .review-item h3{
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     font-weight: 300;
     justify-content: center;
     display: flex;
@@ -647,7 +647,7 @@ button{
     }
 }
 
-@media screen and (mid-width: 1200px) {
+@media screen and (mid-width: 1500px) {
     .features-wrapper{
         height: 800px;
         grid-template-columns:25% 25% 25% 25%;
