@@ -178,7 +178,7 @@ button{
     align-items: center;
 }
 .music p{
-    color: #6eccc1;
+    color: #e0e0e0;
     font-size: 1rem;
     font-weight: 500;
     
@@ -225,7 +225,7 @@ button{
 }
 .product-title{
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 800;
     text-transform: uppercase;
 }
@@ -239,7 +239,7 @@ button{
     transition: (var(--transition));
 }
 .product-item:hover{
-    background:#6eccc1;
+    background: #e0e0e0;
 }
 .product-item:first-of-type{
     margin-top: 2rem;
@@ -273,7 +273,7 @@ button{
     left: 0.5rem;
     font-size: 1rem;
     border: none;
-    background: ##6eccc1;
+    background: #6eccc1;
     color: #e0e0e0;
     padding: 0.5rem 1.6rem;
     border-radius: 5px;
