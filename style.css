@@ -367,7 +367,7 @@ button{
     border-radius: 50%;
     height: 40px;
     border: none;
-    background: #cc876e;
+    background: #62929E;
     color: white;
     transition: (var(--transition));
 }
@@ -457,7 +457,7 @@ button{
     transition: (var(--transition));
 }
 .footer-links li a:hover{
-    color: #cc876e;
+    color: #62929E;
 }
 .footer-text{
     padding: 1.7rem 0;
