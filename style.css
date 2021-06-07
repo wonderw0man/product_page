@@ -5,8 +5,6 @@
     font-family: 'Overpass', sans-serif;
 }
 :root{
-    --emperor: #62929E;
-    --brown: #cc876e;
     --transition: all 0.4s ease-in-out;
 }
 
@@ -47,8 +45,8 @@ button{
     transition: var(--transition);
 }
 .btn-trans:hover{
-    background: var(--emperor);
-    border-color: var(--emperor);
+    background: #62929E;
+    border-color: #62929E;
 }
 .center{
     display: flex;
@@ -95,7 +93,7 @@ button{
     transition: var(--transition);
 }
 .navbar-toggler:hover{
-    color: var(--brown);
+    color: #6eccc1;
 }
 .nav-btns, .nav-icons{
     display: none;
@@ -107,7 +105,7 @@ button{
     right: 0;
     background: black;
     height: 100%;
-    color: #cc876e;
+    color: #6eccc1;
     width:0;
     overflow: hidden;
     transition: (var(--transition));
@@ -118,7 +116,7 @@ button{
     text-align: center;
 }
 .nav-link{
-    color: (var(--brown));
+    color: #6eccc1;
     text-transform:uppercase;
     letter-spacing: 3px;
     font-size: 1.3rem;
@@ -180,7 +178,7 @@ button{
     align-items: center;
 }
 .music p{
-    color: #e0e0e0;
+    color: #6eccc1;
     font-size: 1rem;
     font-weight: 500;
     
@@ -241,7 +239,7 @@ button{
     transition: (var(--transition));
 }
 .product-item:hover{
-    background:#e0e0e0;
+    background:#6eccc1;
 }
 .product-item:first-of-type{
     margin-top: 2rem;
@@ -275,7 +273,7 @@ button{
     left: 0.5rem;
     font-size: 1rem;
     border: none;
-    background: #cc876e;
+    background: ##6eccc1;
     color: #e0e0e0;
     padding: 0.5rem 1.6rem;
     border-radius: 5px;
@@ -408,8 +406,8 @@ button{
     font-size: 1rem;
     background: transparent;
     padding: 0.9rem 1rem;
-    border: 1.5px solid var(--brown);
-    color: var(--brown);
+    border: 1.5px solid #6eccc1;
+    color: #6eccc1;
     font-weight: 200;
 }
 .newsletter h2{
@@ -417,7 +415,7 @@ button{
     text-transform: uppercase;
 }
 .form-control::placeholder{
-    color: #cc876e;
+    color: #6eccc1;
 }
 .form-control:focus{
     outline: none;
@@ -427,7 +425,7 @@ button{
     margin: 1rem 0;
 }
 .newsletter .btn-trans{
-    background: var(--brown);
+    background: #6eccc1;
     border-color: transparent;
     font-size: 1.1rem;
 }
